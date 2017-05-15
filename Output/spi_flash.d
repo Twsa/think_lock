@@ -1,0 +1,17 @@
+..\output\spi_flash.o: ..\USER\W25Q32BV\spi_flash.c
+..\output\spi_flash.o: ..\USER\W25Q32BV/spi_flash.h
+..\output\spi_flash.o: ..\CMSIS\stm32f10x.h
+..\output\spi_flash.o: ..\CMSIS\core_cm3.h
+..\output\spi_flash.o: C:\C\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\spi_flash.o: ..\CMSIS\system_stm32f10x.h
+..\output\spi_flash.o: ..\USER\main\stm32f10x_conf.h
+..\output\spi_flash.o: ..\FWlib\inc\stm32f10x_flash.h
+..\output\spi_flash.o: ..\CMSIS\stm32f10x.h
+..\output\spi_flash.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\output\spi_flash.o: ..\FWlib\inc\stm32f10x_i2c.h
+..\output\spi_flash.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\output\spi_flash.o: ..\FWlib\inc\stm32f10x_sdio.h
+..\output\spi_flash.o: ..\FWlib\inc\stm32f10x_spi.h
+..\output\spi_flash.o: ..\FWlib\inc\stm32f10x_tim.h
+..\output\spi_flash.o: ..\FWlib\inc\stm32f10x_usart.h
+..\output\spi_flash.o: ..\FWlib\inc\misc.h

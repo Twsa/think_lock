@@ -1,0 +1,17 @@
+..\output\time2_app.o: ..\USER\Tim\Time2_App.c
+..\output\time2_app.o: ..\USER\Tim/Time2_App.h
+..\output\time2_app.o: ..\CMSIS\stm32f10x.h
+..\output\time2_app.o: ..\CMSIS\core_cm3.h
+..\output\time2_app.o: C:\C\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\time2_app.o: ..\CMSIS\system_stm32f10x.h
+..\output\time2_app.o: ..\USER\main\stm32f10x_conf.h
+..\output\time2_app.o: ..\FWlib\inc\stm32f10x_flash.h
+..\output\time2_app.o: ..\CMSIS\stm32f10x.h
+..\output\time2_app.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\output\time2_app.o: ..\FWlib\inc\stm32f10x_i2c.h
+..\output\time2_app.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\output\time2_app.o: ..\FWlib\inc\stm32f10x_sdio.h
+..\output\time2_app.o: ..\FWlib\inc\stm32f10x_spi.h
+..\output\time2_app.o: ..\FWlib\inc\stm32f10x_tim.h
+..\output\time2_app.o: ..\FWlib\inc\stm32f10x_usart.h
+..\output\time2_app.o: ..\FWlib\inc\misc.h
