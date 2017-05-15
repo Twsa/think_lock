@@ -1,0 +1,2 @@
+1、Service 中提供的RC4算法
+2、采取flash存储与EEPROM存储共存的方式

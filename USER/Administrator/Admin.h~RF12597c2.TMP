@@ -1,0 +1,50 @@
+#ifndef __ADMIN_H_
+#define __ADMIN_H_
+
+#include "stm32f10x.h"
+#include "string.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include "stm32f10x.h"
+#include "JSON_Service/cJSON.h"
+
+#include "JSON_Service/json_infer.h"
+#include "Lock_Driver.h"
+#include "usart1/usart1.h"
+#include "AT24C128/24cxx.h" 
+#include "STM32_ID/chipid.h"
+#include "Door_Control/Door_Control.h"
+
+void Admin_set(cJSON *object);
+//设置新用户返回设置结果
+void Userset_result(void);
+
+void Opendata_A(void);
+typedef struct 
+{
+	long index;//从基地址开始读取所有用户信息
+	long index_change;//从基地址开始读取所有用户信息
+}checkList;
+
+typedef struct
+	{
+		uint32_t index_name;
+		uint32_t index_time;
+	}openIndex;
+	
+static checkList CheckListUserVerify(checkList checkIndex);
+static uint8_t CheckListJson(const uint32_t checkListNumb,const uint32_t thisCheckListNumb,
+	                             uint32_t checkListNumbTemp,checkList checkIndex);
+void Check_Listing(void);
+
+
+void User_det(cJSON *object);
+void detResult_send (int det_status);
+int Detleting(long detUser_base);
+static uint8_t OpenDataJson(const uint32_t openLockHistoryNumb,const uint32_t thisHistoryNumb,
+	                           uint32_t checkAccountNumTemp,openIndex OpenrecordIndex);
+void Change_temcount(cJSON *object);
+
+//Change_temcount(object);
+#endif
+
