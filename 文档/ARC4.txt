@@ -1,0 +1,3 @@
+char *PainText[8]="12345678";
+char *Arc4Key[8]="12345678";
+unsigned char *EncryptText[8]={0X8A,0XC1,0X0A,0XE0,0X3C,0X87,0XE9,0X9F};

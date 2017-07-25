@@ -1,0 +1,11 @@
+Bill of Material for Sheet1.SchDoc
+On 2011/7/10 at 16:55:04
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+                     HDR1X6           1    P1                           Header, 6-Pin        
+ 1K                  RESC2012L        3    R1, R2, R3                   Semiconductor Resistor 
+ 1uF                 CAPC2012L        2    C1, C2                       Capacitor            
+ BCM                 BCM              1    BCM                                               
+ D1                  CAPC2012L        1    D1                           Typical RED, GREEN, YELLOW, AMBER GaAs LED 
+ XC6206              XC6206           1    *                                                 
